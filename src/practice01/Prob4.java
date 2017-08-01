@@ -8,9 +8,12 @@ public class Prob4 {
 		
 		System.out.print( "문자열을 입력하세요 : " );
 		String text = scanner.nextLine();
+		String output = "";
 		
-		
-		
+		for(char c : text.toCharArray()) {
+			output += c;
+			System.out.println(output);
+		}
 		
 		scanner.close();
 	}
